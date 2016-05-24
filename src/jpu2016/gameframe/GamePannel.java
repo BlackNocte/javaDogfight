@@ -5,5 +5,5 @@ package jpu2016.gameframe;
    import java.util.Observer;
 public class GamePannel {
 
-	
+
 }
