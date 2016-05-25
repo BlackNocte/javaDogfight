@@ -1,21 +1,24 @@
 package jpu.dogfight.view;
   import java.lang.Runnable;
   import java.util.Observable;
-public class DogfightView<orderPerformer, dogfightModel> implements IViewSystem {
-
+  import jpu2016.gameframe.GameFrame;
+public class DogfightView <orderPerformer, dogfightModel> implements IViewSystem {
+    public EventPerformer eventPerformer;
+	public GraphicsBuilder graphicsBuilder;
+    public GameFrame gameFrame;
 	public orderPerformer IOrderPerformer;
 	public dogfightModel IDogfightModel;
 	public Observable Observable;
-	
-	@Override
+
+    @Override
 	public void displayMessage(String Message) {
 	}
 
 	@Override
 	public void CloseAll() {	
 	}
-		private void run(){
-      }
+	private void run(){
+    }
 	public orderPerformer IOrderPerformer(){
 	return this.IOrderPerformer;
 	}

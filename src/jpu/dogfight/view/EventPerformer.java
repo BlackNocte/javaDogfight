@@ -6,12 +6,17 @@ import javafx.scene.input.KeyCode;
      
 public abstract class EventPerformer implements IEventPerformer {
  public int keyCode;
- public int getkeyCode() {
+ 
+ public int getkeyCode(){
 		return keyCode;
 }
     public EventPerformer (IOrderPerformer  orderPerformer){
 }
     public void eventPerform(KeyCode KeyEvent){    
 }
-	private int UserOrder(int KeyCode){
-}}
+	private int UserOrder(int keyCode){
+}
+	public void setkeyCode(int keyCode) {
+		// TODO Auto-generated method stub
+		
+	}}
